@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://meeply.github.io/precache-manifest.6ddee71f7b9eb88b09394ecdf1901dea.js"
+  "https://meeply-designer.github.io/precache-manifest.cca55109ce83ab509e719872c3ab4003.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://meeply.github.io/index.html", {
+workbox.routing.registerNavigationRoute("https://meeply-designer.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
